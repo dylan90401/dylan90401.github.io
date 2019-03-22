@@ -1,0 +1,21 @@
+.skills-container {
+    display:flex;
+    position:relative;
+}
+
+.skills-content {
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.skills--skills {
+    display:flex;
+    flex-wrap: wrap;
+   
+    transition: all 1s ease-out;
+}
+
+.spec-skill i {
+    font-size: 6rem;
+}
