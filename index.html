@@ -204,9 +204,9 @@
         <section class="quote">
             <blockquote class="quote__inner">
                 <span class="quote__text--span">
-                    "Passion is momentary; love is enduring."
+                    "We have to be continually jumping off cliffs and developing our wings on the way down."
                 </span>
-                <span class="quote__text--span quote__text--author">John Wooden</span>
+                <span class="quote__text--span quote__text--author">Kurt Vonnegut</span>
             </blockquote>
         </section>
 
@@ -227,7 +227,8 @@
                                         Natours
                                     </h3>
                                     <p class="works__text--paragraph">
-                                        Project made on Advanced CSS/SASS course.
+                                        Project made in an Advanced CSS/SASS course. Made only with HTML and CSS there
+                                        is no Javascript in this.
                                     </p>
                                 </div>
                                 <a href="https://dylan90401.github.io/Natours/" target="_blank"
@@ -356,26 +357,47 @@
                 Contact
             </h2>
             <div class="contact__inner">
-<!--                
-                <div class="form">
-                       <form method="POST" action="https://formspree.io/panaeleous@gmail.com">
-                        <input type="email" name="email" placeholder="Your email" required class="form__input" >
-                        <label for="email" class="form__label">Email:</label>
-                        <textarea name="message" placeholder="Test Message" required class="form__input"></textarea>
-                        <button type="submit" class="btn">Send Test</button>
-                      </form>
-                </div> -->
-                 
+
+                <div class="form contact__form">
+
+                    <form method="POST" action="https://formspree.io/panaeleous@gmail.com">
+                        <div class="form__group">
+                            <input type="email" name="email" placeholder="Email" required class="form__input">
+                            <label for="email" class="form__label">Email</label>
+                        </div>
+                        <div class="form__group">
+                            <textarea name="message" placeholder="Message" required class="form__input"></textarea>
+                            <label for="message" class="form__label">Message</label>
+                        </div>
+
+                        <div class="form__group u-margin-bottom-medium">
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="techie" name="question">
+                                    <label for="techie" class="form__radio-label"><span
+                                            class="form__radio-button"></span>Techie</label>
+                                </div>
+
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="civilian" name="question">
+                                    <label for="civilian" class="form__radio-label"><span
+                                            class="form__radio-button"></span>Civilian</label>
+                                </div>
+                            </div>
+
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
 
 
-                    <a href='m&#97;&#105;lto&#58;d&#121;l%6&#49;n9%30%3401%40%67&#109;%6&#49;il&#46;c&#111;m' class="contact__email">
+
+                <!-- <a href='m&#97;&#105;lto&#58;d&#121;l%6&#49;n9%30%3401%40%67&#109;%6&#49;il&#46;c&#111;m' class="contact__email">
                
                     <svg class="contact__icon">
                         <use xlink:href="img/sprite.svg#icon-Gmail"></use>
                     </svg>
                     <span class="contact__text--span">&#100;y&#108;&#97;n90401&#64;&#103;&#109;&#97;&#105;l&#46;c&#111;m</span>
-                </a>
-                
+                </a> -->
+
                 <!-- <a href="tel:+555 555 5555" class="contact__phone">
                     <svg class="contact__icon">
                         <use xlink:href="img/sprite.svg#icon-phone"></use>
@@ -413,12 +435,11 @@
             </span>
         </div>
     </footer>
-    <!-- build:js -->
+
     <script src="js/index.js"></script>
     <script src="js/works.js"></script>
     <script src="js/mobile-menu.js"></script>
     <script src="js/smooth-scroll.js"></script>
-    <!-- endbuild -->
 </body>
 
 </html>

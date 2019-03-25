@@ -8,7 +8,7 @@
 
         // must set font family  - color manually on input elements- thus inherit
         font-family: inherit;
-        color: inherit;
+        color: var(--color-black);
         padding: 1.5rem 2rem;
         border-radius: 2px;
         background-color: rgba(255,255,255, 0.5);
@@ -37,11 +37,12 @@
         }
 
         &::-webkit-input-placeholder {
-            color: #333;
+            color:var(--color-black);
         }
     }
 
     &__label {
+        
         font-size: 1.2rem;
         font-weight: 700;
         margin-left: 2rem;
@@ -56,6 +57,7 @@
         opacity: 0;
         visibility: hidden;
         transform: translateY(-4rem);
+        
     }
 
     &__radio-input {
