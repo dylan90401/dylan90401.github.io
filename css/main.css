@@ -86,7 +86,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -114,12 +114,12 @@ body {
 
 ::-moz-selection {
   background-color: var(--color-primary);
-  color: var(--color-dark-1);
+  color: var(--color-grey-1);
 }
 
 ::selection {
   background-color: var(--color-primary);
-  color: var(--color-dark-1);
+  color: var(--color-grey-1);
 }
 
 .btn, .person__button--cv, .person__button--contact, .works__item--button, .header__cta--button, .btn:link, .person__button--cv:link, .person__button--contact:link, .works__item--button:link, .header__cta--button:link, .btn:visited, .person__button--cv:visited, .person__button--contact:visited, .works__item--button:visited, .header__cta--button:visited {
@@ -819,11 +819,11 @@ h1, h2, h3, h4 {
 }
 
 .works__item:nth-child(3) > .works__item--picture {
-  background-image: url(../img/mockups/trillo.jpg);
+  background-image: url("../img/mockups/trillo.jpg");
 }
 
 .works__item:nth-child(4) > .works__item--picture {
-  background-image: url();
+  background-image: url("../img/mockups/nexter.jpg");
 }
 
 .works__item--picture {

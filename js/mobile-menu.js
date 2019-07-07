@@ -25,6 +25,7 @@ mobileLinks.forEach((link) => {
 })
 
 mobileBtn.addEventListener('click', mobileMenu);
+
 document.addEventListener('click', (e) => {
     let isClickedInside = mobileNav.contains(e.target),
         isClickedIcon = mobileBtn.contains(e.target);

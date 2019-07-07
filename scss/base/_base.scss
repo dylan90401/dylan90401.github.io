@@ -8,7 +8,7 @@
 
 
 html {
-    font-size: 10px;
+    font-size: 62.5%;
     
     @media only screen and (max-width: $bp-largest) {
         font-size: 8px;
@@ -31,5 +31,5 @@ body {
 
 ::selection {
     background-color: var(--color-primary);
-    color: var(--color-dark-1);
+    color: var(--color-grey-1);
 }
