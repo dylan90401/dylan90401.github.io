@@ -89,19 +89,19 @@ html {
   font-size: 62.5%;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 75em) {
   html {
     font-size: 8px;
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 43.75em) {
   html {
     font-size: 7px;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 25em) {
   html {
     font-size: 6px;
   }
@@ -187,7 +187,7 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .btn-mobile-menu, .mobile-menu__button {
     display: inline-block;
   }
@@ -305,7 +305,7 @@ h1, h2, h3, h4 {
   letter-spacing: 2px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .heading-primary, .header__text--heading, .header__text--subheading {
     font-size: 3.5em;
   }
@@ -333,7 +333,7 @@ h1, h2, h3, h4 {
   top: 50%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .heading-secondary::before, .works__text--heading::before, .about__text--heading::before, .contact__text--heading::before, .heading-secondary::after, .works__text--heading::after, .about__text--heading::after, .contact__text--heading::after {
     width: 6%;
   }
@@ -346,7 +346,7 @@ h1, h2, h3, h4 {
   left: 42%;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 56.25em) {
   .heading-secondary::before, .works__text--heading::before, .about__text--heading::before, .contact__text--heading::before {
     -webkit-transform: translate(-60%, -50%);
     -ms-transform: translate(-60%, -50%);
@@ -354,7 +354,7 @@ h1, h2, h3, h4 {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .heading-secondary::before, .works__text--heading::before, .about__text--heading::before, .contact__text--heading::before {
     -webkit-transform: translate(-90%, -50%);
     -ms-transform: translate(-90%, -50%);
@@ -363,7 +363,7 @@ h1, h2, h3, h4 {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 25em) {
   .heading-secondary::before, .works__text--heading::before, .about__text--heading::before, .contact__text--heading::before {
     -webkit-transform: translate(-100%, -50%);
     -ms-transform: translate(-100%, -50%);
@@ -379,7 +379,7 @@ h1, h2, h3, h4 {
   left: 58%;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 56.25em) {
   .heading-secondary::after, .works__text--heading::after, .about__text--heading::after, .contact__text--heading::after {
     -webkit-transform: translate(-42%, -50%);
     -ms-transform: translate(-42%, -50%);
@@ -387,7 +387,7 @@ h1, h2, h3, h4 {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .heading-secondary::after, .works__text--heading::after, .about__text--heading::after, .contact__text--heading::after {
     -webkit-transform: translate(-11%, -50%);
     -ms-transform: translate(-11%, -50%);
@@ -396,7 +396,7 @@ h1, h2, h3, h4 {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 25em) {
   .heading-secondary::after, .works__text--heading::after, .about__text--heading::after, .contact__text--heading::after {
     -webkit-transform: translate(-1%, -50%);
     -ms-transform: translate(-1%, -50%);
@@ -634,7 +634,7 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 43.75em) {
   .person {
     text-align: center;
     margin-bottom: 3rem;
@@ -646,7 +646,7 @@ h1, h2, h3, h4 {
   font-size: 1.3em;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 43.75em) {
   .person__text--span {
     display: inline-block;
     margin-right: .5rem;
@@ -665,13 +665,13 @@ h1, h2, h3, h4 {
   line-height: 1;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 56.25em) {
   .person__text--name {
     font-size: 4em;
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 43.75em) {
   .person__text--name {
     margin: 1rem;
     display: block;
@@ -683,7 +683,7 @@ h1, h2, h3, h4 {
   font-size: 1em;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 43.75em) {
   .person__text--job {
     display: block;
   }
@@ -715,7 +715,7 @@ h1, h2, h3, h4 {
   z-index: 10;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 56.25em) {
   .technologies__item {
     -webkit-box-flex: 0;
     -moz-flex: 0 0 21%;
@@ -857,14 +857,14 @@ h1, h2, h3, h4 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .works__item--description {
     width: 45%;
     left: 4%;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 25em) {
   .works__item--description {
     width: 52%;
   }
@@ -882,7 +882,7 @@ h1, h2, h3, h4 {
   font-weight: 700;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 25em) {
   .works__item--description::after {
     font-size: 15em;
   }
@@ -968,7 +968,7 @@ h1, h2, h3, h4 {
   display: inline-block;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .header__nav {
     display: none;
   }
@@ -1064,7 +1064,7 @@ h1, h2, h3, h4 {
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 43.75em) {
   .about__inner {
     -webkit-box-direction: normal;
     -webkit-box-orient: vertical;
@@ -1235,7 +1235,7 @@ h1, h2, h3, h4 {
   padding: 2rem 0;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 25em) {
   .contact__inner {
     -webkit-box-direction: normal;
     -webkit-box-orient: vertical;
@@ -1245,7 +1245,7 @@ h1, h2, h3, h4 {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 25em) {
   .contact__email {
     margin-bottom: 5rem;
   }
@@ -1277,7 +1277,7 @@ h1, h2, h3, h4 {
   transition: all 0.3s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .contact__phone, .contact__email, .contact__phone:link, .contact__email:link, .contact__phone:visited, .contact__email:visited {
     font-size: 2.5em;
   }
