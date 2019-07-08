@@ -70,6 +70,10 @@
             background-image: url('../img/mockups/nexter.jpg');
         }
 
+        &:nth-child(5) > &--picture {
+            background-image: url('../img/mockups/budgety.jpg');
+        }
+
         &--picture {
             height: 50rem;
             background-size: cover;

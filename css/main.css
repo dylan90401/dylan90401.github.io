@@ -826,6 +826,10 @@ h1, h2, h3, h4 {
   background-image: url("../img/mockups/nexter.jpg");
 }
 
+.works__item:nth-child(5) > .works__item--picture {
+  background-image: url("../img/mockups/budgety.jpg");
+}
+
 .works__item--picture {
   height: 50rem;
   background-size: cover;
